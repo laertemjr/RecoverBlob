@@ -1,7 +1,7 @@
 # RecoverBlob
 
 
-Identifica o tipo do arquivo mediante o seu Magic Number (File Signature) | *Identifies the file type using its Magic Number (File Signature)*
+Recupera dados de campos BLOB do MS-Access para arquivos em disco | *Recovers data from MS-Access BLOB fields to files on disk*
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
