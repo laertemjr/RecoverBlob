@@ -9,14 +9,17 @@ Recupera dados de campos BLOB do MS-Access para arquivos em disco | *Recovers da
 
 
 ### 🔎 Testando o programa / *Testing the program*
-* Para testar o programa (portátil), basta fazer o download do arquivo executável acessível a partir da pasta [Win32/Debug](https://github.com/laertemjr/RecoverBlob/tree/main/Win32/Debug) deste repositório.
-* *To test the program (portable), simply download the executable file accessible from the [Win32/Debug](https://github.com/laertemjr/RecoverBlob/tree/main/Win32/Debug) folder of this repository.*
+* Para testar o programa (portátil), basta fazer o download do arquivo executável, acessível a partir da pasta [Win32/Debug](https://github.com/laertemjr/RecoverBlob/tree/main/Win32/Debug) deste repositório.
+* *To test the program (portable), simply download the executable file, accessible from the [Win32/Debug](https://github.com/laertemjr/RecoverBlob/tree/main/Win32/Debug) folder of this repository.*
 
 
 ### 👉 Características / *Features*
-* Reconhece 12 tipos de arquivos de uso comum no Windows: bmp, exe, gif, jpg, pcx, pdf, png, rar, tif, zip, MS-Office 97-2003, e MS-Office posteriores / *Recognizes 12 commonly used file types on Windows: bmp, exe, gif, jpg, pcx, pdf, png, rar, tif, zip, MS-Office 97-2003, and later MS-Office*
-* Informação para o usuário: funciona mesmo sem a extensão do arquivo ou com a extensão errada / *Information for the user: it works even without the file extension or with the wrong extension*
-* A lista de Magic Numbers (MagNumList.txt) é expansível / *The Magic Numbers list (MagNumList.txt) is expandable*
+* Recupera dados de campos BLOB do MS-Access, exatamente como foi gravado, bit a bit (idêntico), para arquivo em disco, sem extensão, ou seja, os dados brutos.
+* *Recovers data from MS-Access BLOB fields, exactly as it was recorded, bit by bit (identical), to a file on disk, without extension, that is, the raw data.*
+* O uso em conjunto com o programa [MagNum.exe](https://github.com/laertemjr/MagNum/tree/main/Win32/Debug) permite identificar até 12 tipos de dados brutos extraídos dos campos BLOB.
+* *When used in conjunction with the [MagNum.exe](https://github.com/laertemjr/MagNum/tree/main/Win32/Debug) program, it allows you to identify up to 12 types of raw data extracted from BLOB fields.*
+* Bônus: a rotina SaveToBlob do formulário principal, com algumas modificações, pode se tornar útil para salvar qualquer tipo de arquivo em campos BLOB do MS-Access, bit a bit (idêntico).
+* *Bonus: the SaveToBlob routine from the main form, with some modifications, can become useful for saving any type of file into MS-Access BLOB fields, bit by bit (identical).*
 
 
 ### 👍 Agradecimentos / *Acknowledgements*
