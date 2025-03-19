@@ -30,11 +30,11 @@ Recupera dados de campos BLOB do MS-Access para arquivos em disco | *Recovers da
 * [![Delphi](https://img.shields.io/badge/-Delphi-E62431?logo=delphi&logoColor=white&style=plastic)](https://www.embarcadero.com/products/delphi) 12.1 Athens
 
 
-### 📌 Versão 0.1.12.0 - 18/03/2025 / *Version 0.1.12.0 - 03/18/2025*
+### 📌 Versão 0.1.0 - 19/03/2025 / *Version 0.1.0 - 03/19/2025*
 * Versão original / Original version
 
 
 ### 📄 Licença / *License*
-* Este projeto está sob a licença *The Unlicense* - veja o arquivo [LICENSE.md](https://github.com/laertemjr/MagNum/blob/main/LICENSE.md) para detalhes.
-* *This project is licensed under *The Unlicense* - see the [LICENSE.md](https://github.com/laertemjr/MagNum/blob/main/LICENSE.md) file for details.*
+* Este projeto está sob a licença *The Unlicense* - veja o arquivo [LICENSE.md](https://github.com/laertemjr/RecoverBlob/blob/main/LICENSE.md) para detalhes.
+* *This project is licensed under *The Unlicense* - see the [LICENSE.md](https://github.com/laertemjr/RecoverBlob/blob/main/LICENSE.md) file for details.*
 
