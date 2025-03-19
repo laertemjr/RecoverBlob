@@ -23,7 +23,7 @@ Recupera dados de campos BLOB do MS-Access para arquivos em disco | *Recovers da
 
 
 ### 👍 Agradecimentos / *Acknowledgements*
-* *code extracted from: https://lecturepress.com/academy/object-pascal/using-blob-fields-in-delphi-datasets/*
+* *code extracted from: [https://lecturepress.com/](https://lecturepress.com/academy/object-pascal/using-blob-fields-in-delphi-datasets/)*
 
 
 ### 🛠️ Construído com / *Built with*
