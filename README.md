@@ -1,4 +1,4 @@
-# MagNum
+# RecoverBlob
 
 
 Identifica o tipo do arquivo mediante o seu Magic Number (File Signature) | *Identifies the file type using its Magic Number (File Signature)*
