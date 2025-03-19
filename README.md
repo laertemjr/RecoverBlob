@@ -16,8 +16,8 @@ Recupera dados de campos BLOB do MS-Access para arquivos em disco | *Recovers da
 ### 👉 Características / *Features*
 * Recupera dados de campos BLOB do MS-Access, exatamente como foi gravado, bit a bit (idêntico), para arquivo em disco, sem extensão, ou seja, os dados brutos.
 * *Recovers data from MS-Access BLOB fields, exactly as it was recorded, bit by bit (identical), to a file on disk, without extension, that is, the raw data.*
-* O uso em conjunto com o programa [MagNum.exe](https://github.com/laertemjr/MagNum/tree/main/Win32/Debug) permite identificar até 12 tipos de dados brutos extraídos dos campos BLOB.
-* *When used in conjunction with the [MagNum.exe](https://github.com/laertemjr/MagNum/tree/main/Win32/Debug) program, it allows you to identify up to 12 types of raw data extracted from BLOB fields.*
+* O uso em conjunto com o programa [MagNum](https://github.com/laertemjr/MagNum) permite identificar até 12 tipos de dados brutos extraídos dos campos BLOB.
+* *When used in conjunction with the [MagNum](https://github.com/laertemjr/MagNum) program, it allows you to identify up to 12 types of raw data extracted from BLOB fields.*
 * Bônus: a rotina SaveToBlob do formulário principal, com algumas modificações, pode se tornar útil para salvar qualquer tipo de arquivo em campos BLOB do MS-Access, bit a bit (idêntico).
 * *Bonus: the SaveToBlob routine from the main form, with some modifications, can become useful for saving any type of file into MS-Access BLOB fields, bit by bit (identical).*
 
