@@ -23,9 +23,7 @@ Recupera dados de campos BLOB do MS-Access para arquivos em disco | *Recovers da
 
 
 ### 👍 Agradecimentos / *Acknowledgements*
-* *Thanks to Edijs Kolesnikovičs (Delphi programmer) from Lithuania:*
-  - https://stackoverflow.com/users/2578854/edijs-kolesnikovi%c4%8ds
-  - https://stackoverflow.com/questions/39188245/how-to-display-picturejpg-with-tdbimage-from-tblobfield
+* *code extracted from: https://lecturepress.com/academy/object-pascal/using-blob-fields-in-delphi-datasets/*
 
 
 ### 🛠️ Construído com / *Built with*
