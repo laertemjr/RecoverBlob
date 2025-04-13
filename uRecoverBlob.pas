@@ -47,13 +47,16 @@ type
     procedure clean;
     procedure checkTable;
     procedure SaveToBlob;
+    function GetVersionInfo(const app:string):string;
   public
     { Public declarations }
+
   end;
 
 var
   frmRecoverBlob: TfrmRecoverBlob;
   path1, path2:string;
+  sVerInfo : string;
 
 implementation
 
@@ -69,6 +72,7 @@ begin
    FileOpenDialog1.Options := [fdoPickFolders];
    path1 := EmptyStr;
    path2 := EmptyStr;
+   sVerInfo := GetVersionInfo(Application.ExeName);
    ptBR;
 end;
 
@@ -273,6 +277,33 @@ if (OpenDialog1.Execute) then
 end;
 end;
 
+function TfrmRecoverBlob.GetVersionInfo(const app: string): string;
+type
+  TVersionInfo = packed record
+    Dummy: array[0..7] of Byte;
+    V2, V1, V4, V3: Word;
+  end;
+var
+  Zero, Size: Cardinal;
+  Data: Pointer;
+  VersionInfo: ^TVersionInfo;
+begin
+  Size := GetFileVersionInfoSize(Pointer(app), Zero);
+  if Size = 0 then
+    Result := ''
+  else
+  begin
+    GetMem(Data, Size);
+    try
+      GetFileVersionInfo(Pointer(app), 0, Size, Data);
+      VerQueryValue(Data, '\', Pointer(VersionInfo), Size);
+      Result := VersionInfo.V1.ToString + '.' + VersionInfo.V2.ToString + '.' + VersionInfo.V3.ToString + '.' + VersionInfo.V4.ToString;
+    finally
+      FreeMem(Data);
+    end;
+  end;
+end;
+
 procedure TfrmRecoverBlob.btn_enClick(Sender: TObject);
 begin
    en;
@@ -282,6 +313,5 @@ procedure TfrmRecoverBlob.btn_ptBRClick(Sender: TObject);
 begin
    ptBR;
 end;
-
 
 end.

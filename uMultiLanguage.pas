@@ -29,7 +29,7 @@ begin
    with frmRecoverBlob do
    begin
       Caption := 'Recupera dados de campos BLOB do MS-Access para arquivos em disco';
-      StatusBar1.Panels[0].Text := 'Desenvolvido em Delphi 12.1 - versão 0.1 (2025)';
+      StatusBar1.Panels[0].Text := 'Desenvolvido em Delphi 12.1 - versão ' + sVerInfo + ' (2025)';
       btnBrowse.Caption := '&Procurar';
       btnBrowse2.Caption := '&Procurar';
       btnRecover.Caption := '&Recuperar';
@@ -60,7 +60,7 @@ begin
    with frmRecoverBlob do
    begin
       Caption := 'Recovers data from MS-Access BLOB fields to files on disk';
-      StatusBar1.Panels[0].Text := 'Developed in Delphi 12.1 - version 0.1 (2025)';
+      StatusBar1.Panels[0].Text := 'Developed in Delphi 12.1 - version ' + sVerInfo + ' (2025)';
       btnBrowse.Caption := '&Browse';
       btnBrowse2.Caption := '&Browse';
       btnRecover.Caption := '&Recover';
